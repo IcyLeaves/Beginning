@@ -12,11 +12,14 @@
         android:background="#ADFF2F"
         android:layout_weight="1"/>
 
-
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="fill_parent"
         android:background="#DA70D6"
-        android:layout_weight="2"/>
-
+        android:layout_weight="2">
+        <View
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:background="#000000"/>
+    </LinearLayout>
 </LinearLayout>
