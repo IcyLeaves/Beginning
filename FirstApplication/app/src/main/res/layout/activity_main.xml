@@ -10,25 +10,31 @@
         android:layout_width="0dp"
         android:layout_height="fill_parent"
         android:layout_weight="1"
-        android:background="#ADFF2F"
-        android:divider="@drawable/divideline"
+        android:background="#0066CC"
+        android:divider="@drawable/divideline2"
         android:dividerPadding="5dp"
         android:orientation="vertical"
         android:showDividers="middle">
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#008FFF"
+            android:textColor="#AFEEEE"
             android:text="按钮1" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#008FFF"
+            android:textColor="#AFEEEE"
             android:text="按钮2" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#008FFF"
+            android:textColor="#AFEEEE"
             android:text="按钮3" />
 
     </LinearLayout>
@@ -37,11 +43,11 @@
         android:layout_width="0dp"
         android:layout_height="fill_parent"
         android:layout_weight="2"
-        android:background="#DA70D6">
+        android:background="#87CEFA">
 
         <View
-            android:layout_width="5dp"
+            android:layout_width="2dp"
             android:layout_height="match_parent"
-            android:background="#000000" />
+            android:background="#483D8B" />
     </LinearLayout>
 </LinearLayout>
