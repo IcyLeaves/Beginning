@@ -1,53 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/LinearLayout1"
+    android:id="@+id/RelativeLayout1"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="horizontal">
+    android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="fill_parent"
-        android:layout_weight="1"
-        android:background="#0066CC"
-        android:divider="@drawable/divideline2"
-        android:dividerPadding="5dp"
-        android:orientation="vertical"
-        android:showDividers="middle">
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/jager"/>
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#008FFF"
-            android:textColor="#AFEEEE"
-            android:text="按钮1" />
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@id/img1"
+        android:src="@drawable/caveria" />
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#008FFF"
-            android:textColor="#AFEEEE"
-            android:text="按钮2" />
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toEndOf="@id/img1"
+        android:layout_centerVertical="true"
+        android:src="@drawable/doc"/>
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#008FFF"
-            android:textColor="#AFEEEE"
-            android:text="按钮3" />
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@id/img1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/valkyrie"/>
 
-    </LinearLayout>
+    <ImageView
+        android:id="@+id/img5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/img1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/sledge"/>
 
-    <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="fill_parent"
-        android:layout_weight="2"
-        android:background="#87CEFA">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingTop="25dp"
+        android:background="#2222"
+        android:text="Icy最爱的五个干员"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_above="@id/img4"/>
 
-        <View
-            android:layout_width="2dp"
-            android:layout_height="match_parent"
-            android:background="#483D8B" />
-    </LinearLayout>
-</LinearLayout>
+    <ImageView
+        android:id="@+id/imgKing"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@id/img1"
+        android:layout_alignTop="@id/img1"
+        android:background="@drawable/king"
+        android:layout_marginTop="-15dp"
+        android:layout_marginEnd="-10dp" />
+
+</RelativeLayout>
