@@ -7,52 +7,23 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/txtJager"
-        android:layout_width="195dp"
-        android:layout_height="250dp"
-        android:layout_marginTop="20dp"
-        android:drawableTop="@drawable/jager"
+        android:id="@+id/txtR6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:autoLink="web"
         android:fontFamily="@font/rainbowsixfont"
-        android:text="Jäger"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="50sp" />
+        android:text="rainbow6.ubisoft.com/siege"
+        android:textSize="40sp" />
 
     <TextView
-        android:id="@+id/txtSledge"
-        android:layout_width="195dp"
-        android:layout_height="250dp"
-        android:layout_marginTop="20dp"
-        android:layout_toEndOf="@id/txtJager"
-        android:drawableTop="@drawable/sledge"
+        android:id="@+id/txtPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtR6"
+        android:layout_centerHorizontal="true"
+        android:autoLink="phone"
         android:fontFamily="@font/rainbowsixfont"
-        android:text="Sledge"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="50sp" />
-
-    <TextView
-        android:id="@+id/txtValkyrie"
-        android:layout_width="195dp"
-        android:layout_height="250dp"
-        android:layout_below="@id/txtJager"
-        android:drawableTop="@drawable/valkyrie"
-        android:fontFamily="@font/rainbowsixfont"
-        android:text="Valkyrie"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="50sp" />
-
-    <TextView
-        android:id="@+id/txtCaveria"
-        android:layout_width="195dp"
-        android:layout_height="250dp"
-        android:layout_alignStart="@id/txtSledge"
-        android:layout_below="@id/txtSledge"
-        android:drawableTop="@drawable/caveria"
-        android:fontFamily="@font/rainbowsixfont"
-        android:text="Caveria"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="50sp" />
+        android:text="18302163221"
+        android:textSize="40sp" />
 </RelativeLayout>
