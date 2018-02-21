@@ -3,27 +3,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#555555"
-    android:orientation="horizontal"
+    android:gravity="center"
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/txtR6"
-        android:layout_width="wrap_content"
+        android:id="@+id/txtOne"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:autoLink="web"
-        android:fontFamily="@font/rainbowsixfont"
-        android:text="rainbow6.ubisoft.com/siege"
-        android:textSize="40sp" />
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="说是从前有座山，山上有座庙，庙里有个老和尚给小和尚讲故事，讲的什么呢？"/>
 
-    <TextView
-        android:id="@+id/txtPhone"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/txtR6"
-        android:layout_centerHorizontal="true"
-        android:autoLink="phone"
-        android:fontFamily="@font/rainbowsixfont"
-        android:text="18302163221"
-        android:textSize="40sp" />
 </RelativeLayout>
