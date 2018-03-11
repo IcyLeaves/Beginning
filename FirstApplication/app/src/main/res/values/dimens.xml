@@ -1,3 +1,4 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="btn_rounded_corner_radius">5dp</dimen> //按钮圆角尺寸
 </resources>
