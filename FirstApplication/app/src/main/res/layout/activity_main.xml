@@ -9,7 +9,7 @@
         android:id="@+id/btnOne"
         android:layout_width="200dp"
         android:layout_height="64dp"
-        android:background="@drawable/btn_bg1"
+        android:background="@drawable/btn_danger_rounded"
         android:layout_centerHorizontal="true"
         />
 
