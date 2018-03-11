@@ -5,21 +5,20 @@
     android:gravity="center"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btnOne"
+    <ImageView
+        android:id="@+id/imgOne"
         android:layout_width="200dp"
         android:layout_height="64dp"
+        android:src="@drawable/btn_prepared"
         android:background="@drawable/btn_danger_rounded"
-        android:layout_centerHorizontal="true"
         />
 
-
-    <Button
-        android:id="@+id/btnTwo"
-        android:layout_below="@id/btnOne"
+    <ImageView
+        android:id="@+id/imgTwo"
+        android:layout_below="@id/imgOne"
         android:layout_width="200dp"
         android:layout_height="64dp"
-        android:layout_centerHorizontal="true"
-        android:text="按钮不可用"/>
+        android:background="@drawable/btn_pressed"
+        />
 
 </RelativeLayout>
